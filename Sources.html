@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+
+<head profile="http://www.w3.org/2005/10/profile">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>5 C Turtles Homepage</title>
+    <link rel="icon" type="image/png" href="Favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Pompiere" rel="stylesheet">
+    <style>
+        .centered {
+            text-align: center;
+        }
+
+        .pompiere {
+            font-family: 'Pompiere', cursive;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="light-green lighen-2 pompiere">
+        <div class="nav-wrapper ">
+            <a href="index.html" class="brand-logo" style="margin: 15px;"><img src="Logo.png" alt="The 5C Turtles" height="75px" width="75px"></a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="Game.html">Games</a>
+                </li>
+                <li><a href="https://www.change.org/p/23jakinola-castilleja-org-save-the-sea-turtles">Petition</a>
+                </li>
+                <li><a href="Sources.html">Sources</a>
+                </li>
+            </ul>
+            <ul class="side-nav" id="mobile-demo">
+                <li><a href="Game.html">Games</a>
+                </li>
+                <li><a href="Sources.html">Sources</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="parallax-container pompiere">
+        <div class="parallax"><img src="babyturtle.jpg">
+        </div>
+        <div class="section white">
+            <div class="row container">
+                <h2 class="centered">Sources</h2>
+                <ol class="grey-text text-darken-3 lighten-3">
+                </ol>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                $('.parallax').parallax();
+            });
+        </script>
+</body>
+
+</html>
